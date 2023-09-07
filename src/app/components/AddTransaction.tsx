@@ -8,7 +8,7 @@ const AddTransaction = () => {
         <input
           type="text"
           placeholder="Enter Text"
-          className="my-1 font-semibold text-xs p-1 border-zinc-400 border-2 rounded"
+          className="my-1 font-semibold text-xs p-1 border-zinc-400 border-2 rounded w-full"
         />
       </div>
       <div>
@@ -19,7 +19,7 @@ const AddTransaction = () => {
         <input
           type="text"
           placeholder="Enter Amount"
-          className="my-1 font-semibold text-xs p-1 border-zinc-400 border-2 rounded"
+          className="my-1 font-semibold text-xs p-1 border-zinc-400 border-2 rounded w-full"
         />
       </div>
       <button className=" py-1 mt-2 font-semibold bg-purple-500 text-white w-full rounded border-zinc-400 border-2">
