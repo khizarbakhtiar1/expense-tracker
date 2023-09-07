@@ -6,7 +6,7 @@ import AddTransaction from "./components/AddTransaction";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen flex">
+    <div className="w-full h-screen flex bg-slate-50">
       <div className="m-auto">
         <Header />
         <Balance />
