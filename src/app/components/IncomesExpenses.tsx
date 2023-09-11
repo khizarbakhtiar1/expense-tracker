@@ -35,7 +35,7 @@ const IncomesExpenses = () => {
 
   return (
     <div
-      className="my-3 py-2 flex gap-x-14 items-center justify-center bg-white
+      className="my-3 py-2 flex gap-x-14 items-center justify-around bg-white
      border-zinc-400 border-2 rounded"
     >
       <div className="">

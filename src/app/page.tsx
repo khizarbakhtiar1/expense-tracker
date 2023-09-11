@@ -11,6 +11,8 @@ export default function Home() {
       <div className="w-full h-screen flex bg-slate-50">
         <div className="m-auto">
           <Header />
+          <hr className="border-black" />
+          <br />
           <Balance />
           <IncomesExpenses />
           <TransactionList />

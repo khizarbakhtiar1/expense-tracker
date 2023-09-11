@@ -23,11 +23,11 @@ const Transaction = ({ transaction }: any) => {
   const sign = transaction.amount < 0 ? "-" : "+";
   return (
     <div
-      className="flex justify-between my-1 p-1 bg-white border-zinc-400 border-2 rounded
+      className="flex justify-between my-3 p-2 bg-white border-zinc-400 border-2 rounded
      text-xs font-semibold text-zinc-800 "
     >
-      <div className="ml-1">{transaction.text}</div>
-      <div>
+      <div className="ml-2 font-bold">{transaction.text}</div>
+      <div className="font-bold">
         {sign}
         {moneyFormatter(transaction.amount)}
         <button

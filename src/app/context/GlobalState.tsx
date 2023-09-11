@@ -19,7 +19,7 @@ export const GlobalContext = createContext<{
 });
 
 // Provider Component
-export const GlobalProvider: React.FC = ({ children }: any) => {
+export const GlobalProvider = ({ children }: any) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   // Actions
